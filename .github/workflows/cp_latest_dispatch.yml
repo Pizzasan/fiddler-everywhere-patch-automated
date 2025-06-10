@@ -237,7 +237,7 @@ jobs:
           
           # Check if the scraped version is available
           if (-not [string]::IsNullOrEmpty($scrapedVersion)) {
-            $downloadUrl = "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%20$scrapedVersion.exe"
+            $downloadUrl = "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%206.6.0.exe"
           
             Write-Host "Download URL: $downloadUrl"
 
